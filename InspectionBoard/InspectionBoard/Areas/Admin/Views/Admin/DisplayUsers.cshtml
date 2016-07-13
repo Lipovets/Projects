@@ -1,0 +1,106 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Applicant>
+
+@{
+    ViewBag.Title = "Користувачі";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Користувачі</h2>
+
+<table class="table">
+    <tr>
+
+        <th>
+
+            Прізвище
+        </th>
+        <th>
+            Ім'я
+        </th>
+        <th>
+            По-батькові
+        </th>
+        <th>
+            Місто
+        </th>
+        <th>
+            Область
+        </th>
+        <th>
+            Школа
+        </th>
+        <th>
+            Атестат
+        </th>
+        <th></th>
+    </tr>
+
+    @{
+        string ApplicantName = ViewBag.ApplicantName;
+    }
+    @foreach (var item in Model)
+    {
+        if (item.UserName != "moderator@gmail.com" && item.UserName != "admin@gmail.com")
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.MiddleName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Region)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SchoolName)
+                </td>
+                <td>
+                    @Html.Raw("<img style='width:80px; height:60px;' src=\"data:image/jpeg;base64,"
+                                + Convert.ToBase64String(item.Attestation) + "\" />")
+                </td>
+                <td>
+                    @using (Html.BeginForm())
+                    {
+                        if (!item.isBlocked)
+                        {
+                            <input type="hidden" value="@item.Email" name="Email" />
+                            <input type="hidden" value="1" name="Block" />
+                            <input type="submit" value="Заблокувати" class="btn btn-primary small" />
+                        }
+                        else
+                        {
+                            <input type="hidden" value="@item.Email" name="Email" />
+                            <input type="hidden" value="0" name="Block" />
+                            <input type="submit" value="Розблокувати" class="btn btn-primary small" />
+                        }
+
+                    }
+                </td>
+
+                <td> 
+                    @Html.ActionLink("Повернутися", "Index", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    }
+</table>
+ 
+@section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

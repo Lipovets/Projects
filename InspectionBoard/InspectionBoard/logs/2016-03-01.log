@@ -1,0 +1,59 @@
+2016-03-01 01:14:52.4414 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Спеціальністьwas created.
+2016-03-01 10:34:01.7490 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-03-01 10:34:10.0663 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 10:34:15.3130 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 10:34:15.5512 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 10:38:49.7247 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 10:53:53.9958 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-01 10:55:14.9316 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Біологіяwas created.
+2016-03-01 10:55:33.2015 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Хіміяwas created.
+2016-03-01 10:55:49.1869 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Англійська моваwas created.
+2016-03-01 10:56:11.8444 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Географіяwas created.
+2016-03-01 11:02:11.2321 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 11:03:20.6917 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 11:04:01.0322 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 11:04:29.8710 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-03-01 11:04:30.3641 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-01 11:04:42.9782 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-01 11:04:45.2670 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-01 11:04:53.1111 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-01 11:05:03.6403 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-01 11:06:15.8699 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 11:06:28.3165 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User maks@vovk.ru log in system.
+2016-03-01 11:14:41.8631 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 12:09:45.6145 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-01 12:09:47.5771 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 12:11:32.4540 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Прикладна математикаwas created.
+2016-03-01 12:14:55.9941 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 12:30:05.7567 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 13:18:36.8383 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 13:20:23.2962 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Системна інженеріяwas created.
+2016-03-01 13:52:14.0248 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 15:45:54.0979 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 15:47:44.6927 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 16:14:54.0167 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-01 16:14:55.2508 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 16:15:22.2867 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 17:18:44.8968 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 17:19:09.2010 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 17:34:57.9476 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-01 17:34:58.9736 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 17:35:41.0544 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 21:58:57.4562 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-01 21:59:04.0379 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 21:59:40.8843 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Київ
+2016-03-01 21:59:51.7820 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Полтава
+2016-03-01 22:00:10.2123 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Дніпропетровськ
+2016-03-01 22:00:23.3831 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Львів
+2016-03-01 22:02:33.6547 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Києво-Могилянська Академія was added by admin
+2016-03-01 22:03:01.4455 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Журналістикиwas added.
+2016-03-01 22:05:16.1940 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Журналістика новинwas created.
+2016-03-01 22:05:50.2693 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-01 22:06:07.4540 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-01 22:06:41.6668 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-01 22:06:50.0957 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-01 22:11:28.8566 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful butich@gmail.com
+2016-03-01 22:17:23.3854 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful bereza@gmail.ru
+2016-03-01 22:43:02.4564 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful vlad@gmail.ru
+2016-03-01 22:45:45.0123 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful artem@gmail.ru
+2016-03-01 22:56:29.6302 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful m1304@mail.ru

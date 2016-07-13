@@ -1,0 +1,111 @@
+﻿@model InspectionBoard.Domain.Entity.RegisterModel
+
+@{
+    ViewBag.Title = "Register"; 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel=" stylesheet" type="text/css" href="~/Content/Style.css" />
+}
+
+
+<body background="~/Content/reg3.jpg" style="background-attachment: fixed; background-position: right top;">
+
+    @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            <h2 class="centr">Реєстрація</h2>
+            <br />
+            @Html.ValidationSummary(false, "", new { @class = "validka" })
+
+            <div>
+                <label class="lab">Прізвище</label>
+                <div>
+                    <input name="LastName" class="form-control field centr" />
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Ім'я</label>
+                <div>
+                    <input name="FirstName" class="form-control field centr" />
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">По-батькові</label>
+                <div>
+                    <input name="MiddleName" class="form-control field centr" />
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Область</label>
+                <div>
+                    <input name="Region" class="form-control field centr" />
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Місто</label>
+                <div>
+                    <input name="City" class="form-control field centr" />
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Школа</label>
+                <div>
+                    <input name="SchoolName" class="form-control field centr" />
+                </div>
+            </div>
+
+            <br />
+            <div>
+                <label class="lab">Знімок атестату</label>
+
+                <input float="left" type="file" name="uploadImage" class="field centr" value="Вибрати файл" />
+
+            </div>
+            <br />
+
+            <div>
+                <label class="lab">Электронный адрес</label>
+                <div>
+                    <input name="Email" class="form-control field centr" />
+
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Пароль</label>
+                <div>
+                    <input name="Password" class="form-control field centr" type="password"/>
+                </div>
+            </div>
+
+            <div>
+                <label class="lab">Підтвердити пароль</label>
+                <div>
+                    <input name="PasswordConfirm" class="form-control field centr" type="password" />
+                </div>
+            </div>
+            <br />
+            <div>
+                <div>
+                    <input type="submit" value="Зареєструватися" class="btn btn-primary centr" />
+                    <a href="/Account/Account/Login" class="alinkbutton btn btn-default">Логін</a>
+                </div>
+            </div>
+        </div>
+
+    }
+</body>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+  

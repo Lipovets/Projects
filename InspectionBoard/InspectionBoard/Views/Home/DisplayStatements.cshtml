@@ -1,0 +1,100 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Statement>
+@using InspectionBoard.Domain.BuisnessLogic.Admin;
+@using InspectionBoard.Domain.BuisnessLogic;
+@using InspectionBoard.Domain.Entity;
+
+@{
+    ViewBag.Title = "DisplayStatements";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Конкурс</h2>
+
+<table class="table ">
+    <tr>
+        <th>
+            №
+        </th>
+        <th>
+            ПІБ
+        </th>
+        <th>
+            Сума балів
+        </th>
+       
+    </tr>
+    @{
+        int i = 0; 
+        List<int> Budget = ViewBag.Budget as List<int>;
+        List<int> Total = ViewBag.Total as List<int>;
+        
+    }
+@foreach (var item in Model)
+{
+    if (item.isConfirmed)
+    {
+        if (Budget.Contains(item.Id)&&CalculateResults.isReckoned)
+        {
+            <tr bgcolor="green">
+                <td>
+                    <p>@(++i)</p>
+                </td>
+                <td>
+                    @{
+            StatementRepository p = new StatementRepository();
+            <p>@p.ApplicantToStatement(item.Id).LastName @p.ApplicantToStatement(item.Id).FirstName @p.ApplicantToStatement(item.Id).MiddleName</p>
+                    }
+                </td>
+                <td>
+                    @(item.Subject1 + item.Subject2 + item.Subject3 + item.СreditСertificate)
+                </td>
+
+            </tr>
+        }
+        else if (Total.Contains(item.Id) && CalculateResults.isReckoned)
+        {
+            <tr bgcolor="red">
+                <td>
+                    <p>@(++i)</p>
+                </td>
+                <td>
+                    @{
+            StatementRepository p = new StatementRepository();
+            <p>@p.ApplicantToStatement(item.Id).LastName @p.ApplicantToStatement(item.Id).FirstName @p.ApplicantToStatement(item.Id).MiddleName</p>
+                    }
+                </td>
+                <td>
+                    @(item.Subject1 + item.Subject2 + item.Subject3 + item.СreditСertificate)
+                </td>
+
+
+
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td>
+                    <p>@(++i)</p>
+                </td>
+                <td>
+                    @{
+            StatementRepository p = new StatementRepository();
+            <p>@p.ApplicantToStatement(item.Id).LastName @p.ApplicantToStatement(item.Id).FirstName @p.ApplicantToStatement(item.Id).MiddleName</p>
+                    }
+                </td>
+                <td>
+                    @(item.Subject1 + item.Subject2 + item.Subject3 + item.СreditСertificate)
+                </td>
+
+
+
+            </tr>
+        }
+    }
+}
+
+</table>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

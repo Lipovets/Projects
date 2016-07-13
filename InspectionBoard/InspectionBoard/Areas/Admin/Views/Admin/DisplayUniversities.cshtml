@@ -1,0 +1,57 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.University>
+
+@{
+    ViewBag.Title = "Список університетів";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Список університетів</h2>
+
+@if (!ViewBag.Roles.Contains("moderator"))
+{
+    <p>
+        <a href="/Admin/Admin/CreateUniversity#section2">Додати університет</a> 
+    </p>
+}
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                <a href="/Admin/Admin/DisplayFaculty/@item.Id#section2">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </a>
+            </td>
+
+            <td>
+                @if (!ViewBag.Roles.Contains("moderator"))
+                {     
+                    <p>
+                        <a href="/Admin/Admin/EditUniversity/@item.Id#section2">Редагувати | </a>
+                        <a href="/Admin/Admin/DeleteUniversity/@item.Id">Видалати</a>  
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Тільки для адміністратора
+                    </p>
+                }
+            </td>
+        </tr>
+    }
+
+</table> 
+@section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

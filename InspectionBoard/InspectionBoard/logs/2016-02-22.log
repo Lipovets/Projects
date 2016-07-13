@@ -1,0 +1,7 @@
+2016-02-22 17:21:20.7685 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Не вдалося зареєструвати користувача. Атестат не завантажено.
+2016-02-22 22:29:14.0879 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Харків
+2016-02-22 22:30:34.4375 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on Харків
+2016-02-22 22:30:53.8894 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-22 22:31:59.2776 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Не правильний логін чи пароль
+2016-02-22 22:31:59.4861 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Не вдалося ввійти в систему
+2016-02-22 22:32:12.9904 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@mail.ru ввійшов в систему.

@@ -1,0 +1,60 @@
+2016-03-04 00:09:43.8775 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 00:09:52.2605 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-04 00:09:52.2605 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-04 00:10:03.0621 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-04 00:10:03.0621 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-04 00:10:15.1027 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-04 00:10:15.2378 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 00:10:44.3798 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 00:11:17.6744 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-04 00:11:32.0942 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-04 00:11:44.1132 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-04 00:11:54.5396 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-04 00:12:08.1182 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-04 00:13:30.5310 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 11:06:59.4275 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-04 11:07:00.2242 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 11:07:31.9457 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | List of applicants was defined. There are 11 applicants on budget, and 0 applicants on contract.
+2016-03-04 11:07:31.9457 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | List of applicants was defined. There are 11 applicants on budget, and 0 applicants on contract.
+2016-03-04 11:07:53.6298 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Messages about accepted to university was sent (11).
+2016-03-04 11:07:54.5440 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Messages about accepted to university was sent (11).
+2016-03-04 11:08:50.0465 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 11:09:01.8548 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-04 11:43:35.6105 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 13:14:46.7936 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-04 13:15:14.9557 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 13:40:48.1723 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-03-04 13:40:48.3083 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-04 13:40:49.7663 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 13:42:10.9755 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-03-04 13:42:11.0915 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-04 13:42:21.6677 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 13:55:54.6495 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-04 13:57:48.7249 | INFO | InspectionBoard.Controllers.HomeController | Userslavik@gmail.com sent statement to system.
+2016-03-04 13:58:14.2920 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 13:58:23.3839 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-04 13:58:23.5060 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 13:59:29.0943 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 13:59:58.6370 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-04 14:00:05.3445 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:00:14.8313 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-04 14:01:00.2934 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:01:08.5918 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-04 14:01:08.7169 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 14:01:17.7134 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | List of applicants was defined. There are 11 applicants on budget, and 1 applicants on contract.
+2016-03-04 14:01:52.8571 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Messages about accepted to university was sent (12).
+2016-03-04 14:08:18.4604 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:08:37.8493 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-04 14:09:29.2117 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:09:37.6517 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-03-04 14:09:37.7823 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-04 14:09:49.0693 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:10:09.1713 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-04 14:10:09.3166 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-04 14:12:19.4239 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User kari_mos@gmail.com log in system.
+2016-03-04 14:18:00.5504 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 14:18:08.7737 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-04 14:18:08.8778 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-04 14:20:30.9906 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-04 22:09:57.9588 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was failed. Attestation didn't load.
+2016-03-04 22:10:50.5663 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.

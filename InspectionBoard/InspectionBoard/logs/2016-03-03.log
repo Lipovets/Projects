@@ -1,0 +1,74 @@
+2016-03-03 21:54:34.1325 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User moderator@gmail.com log in system.
+2016-03-03 21:54:35.2594 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 21:55:43.2019 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was deleted.
+2016-03-03 21:55:53.2090 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 21:56:19.2556 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-03-03 22:00:24.5947 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 22:01:12.4289 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 22:03:37.8692 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 22:03:38.1374 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 22:03:51.4406 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 22:03:51.4456 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 22:04:23.8162 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 22:04:23.8207 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 22:05:40.5733 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 22:05:40.5733 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 22:06:10.9576 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-03 22:06:11.1025 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 22:06:26.2527 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on Харків
+2016-03-03 22:10:27.2895 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Харківський національний університет ім.Каразіна was added by admin
+2016-03-03 22:12:32.1211 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Харківський національний університет радіоелектроніки was added by admin
+2016-03-03 22:15:18.1234 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Національний юридичний університет імені Ярослава Мудрого was added by admin
+2016-03-03 22:17:53.6729 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Харківський національний медичний університет was added by admin
+2016-03-03 22:19:11.1035 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was edited by admin.
+2016-03-03 22:22:53.3530 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Харківський національний університет будівництва та архітектури was added by admin
+2016-03-03 22:26:26.7377 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Фізико-технічнийwas added.
+2016-03-03 22:26:43.8280 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Електроенергетичнийwas added.
+2016-03-03 22:27:00.9799 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Економічної інформатики та менеджментуwas added.
+2016-03-03 22:28:47.6747 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Бізнесу і фінансівwas added.
+2016-03-03 22:28:58.0611 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Транспортного машинобудуванняwas added.
+2016-03-03 22:29:17.1185 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Інтегрованих технологій і хімічної технікиwas added.
+2016-03-03 22:29:32.0971 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Економічнийwas added.
+2016-03-03 22:29:48.8049 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Технології неорганічних речовинwas added.
+2016-03-03 22:30:15.1641 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Комп'ютерних та інформаційних технологійwas added.
+2016-03-03 22:37:01.7708 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Комп'ютерні науки (КН)was edited.
+2016-03-03 22:37:23.2268 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Комп'ютерні науки (КН)was edited.
+2016-03-03 22:49:33.6446 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 23:09:37.5075 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженерія (ПІ)was edited.
+2016-03-03 23:09:53.3218 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:15:20.0415 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful kari_mos@gmail.com
+2016-03-03 23:17:17.8826 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User kari_mos@gmail.com log in system.
+2016-03-03 23:19:00.2620 | INFO | InspectionBoard.Controllers.HomeController | Userkari_mos@gmail.com sent statement to system.
+2016-03-03 23:19:23.7041 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:19:34.9532 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 23:19:35.1250 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 23:19:47.9157 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-03 23:19:48.0513 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 23:20:34.3163 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-03 23:30:09.5648 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 23:30:31.9834 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:30:45.0067 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User kari_mos@gmail.com log in system.
+2016-03-03 23:31:14.8229 | INFO | InspectionBoard.Controllers.HomeController | Userkari_mos@gmail.com sent statement to system.
+2016-03-03 23:31:25.8760 | INFO | InspectionBoard.Controllers.HomeController | Userkari_mos@gmail.com sent statement to system.
+2016-03-03 23:31:37.4213 | INFO | InspectionBoard.Controllers.HomeController | Userkari_mos@gmail.com sent statement to system.
+2016-03-03 23:31:48.1252 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:32:03.7637 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-03 23:32:03.8831 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 23:32:26.6515 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-03 23:32:39.8165 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-03 23:32:42.1284 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-03 23:33:06.3444 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-03 23:33:08.4656 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:33:29.3003 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-03-03 23:33:29.4429 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-03-03 23:33:44.0973 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:33:59.5360 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@mail.ru log in system.
+2016-03-03 23:38:23.3733 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-03 23:39:15.0646 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-03-03 23:39:15.3554 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-03-03 23:39:57.9382 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was failed. Attestation didn't load.
+2016-03-03 23:41:17.7374 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was failed. Attestation didn't load.
+2016-03-03 23:41:36.5730 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful mail@awqe.adsko
+2016-03-03 23:51:06.9081 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful slavik@gmail.com
+2016-03-03 23:51:15.4364 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User slavik@gmail.com log in system.
+2016-03-03 23:53:11.7891 | INFO | InspectionBoard.Controllers.HomeController | Userslavik@gmail.com sent statement to system.

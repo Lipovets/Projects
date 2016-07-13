@@ -1,0 +1,5 @@
+2016-02-28 12:50:25.9137 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@mail.ru log in system.
+2016-02-28 14:05:26.9411 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-28 14:05:44.2329 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-02-28 14:05:44.3966 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-28 14:06:18.8527 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty iuytdfghwas added.

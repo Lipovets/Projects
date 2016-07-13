@@ -1,0 +1,45 @@
+2016-02-25 16:48:07.6581 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 16:50:38.3000 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Registration was successful albina@gmail.com
+2016-02-25 16:50:51.6147 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User albina@gmail.com log in system.
+2016-02-25 17:10:46.4692 | INFO | InspectionBoard.Controllers.HomeController | Useralbina@gmail.com sent statement to system.
+2016-02-25 17:10:54.2831 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 17:11:12.2736 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-02-25 17:11:12.4367 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-25 17:11:48.4970 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 17:12:00.4276 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User albina@gmail.com log in system.
+2016-02-25 17:12:24.4475 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 22:45:21.6371 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-02-25 22:45:35.0800 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 22:47:32.1878 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-02-25 22:47:46.9651 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-25 23:43:34.1180 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:44:03.5050 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:44:50.9485 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:48:42.5561 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:49:41.9544 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:51:20.5545 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:51:22.9344 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:51:28.4055 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:51:50.4450 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:51:57.8599 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:52:23.1935 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:52:38.6501 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:53:04.8854 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:53:32.4187 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:53:32.4187 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:54:29.8375 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:54:29.8375 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:56:32.8232 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:56:32.8232 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:56:38.4408 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:56:38.4444 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:56:54.1911 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:56:54.1951 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:57:10.6306 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:57:10.6376 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:57:20.4018 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:57:20.4018 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:57:28.5850 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-25 23:57:28.5850 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:59:17.1325 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-25 23:59:20.7785 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed

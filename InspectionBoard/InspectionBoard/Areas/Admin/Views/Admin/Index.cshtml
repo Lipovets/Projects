@@ -1,0 +1,77 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.City>
+
+@{
+    ViewBag.Title = "Список міст України";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Список міст України</h2>
+@if (!ViewBag.Roles.Contains("moderator"))
+{
+    <p>
+        <a href="/Admin/Admin/Create#section2">Додати місто</a>
+    </p>
+    <p>
+        <a href="/Admin/Admin/Dispusers"></a>
+    </p>
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            <p>Дії</p>
+        </th>
+        <th>
+            @using (Html.BeginForm())
+            {
+                <input type="hidden" name="know" value="1" />
+                <input type="submit" value="Визначити зарахованих" class="btn btn-primary small" />
+            }
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="/Admin/Admin/DisplayUniversities/@item.Id#section2">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </a>
+            </td>
+            <td>
+                @if (!ViewBag.Roles.Contains("moderator"))
+                {
+                    <p>
+                        <a href="/Admin/Admin/Edit/@item.Id#section2">Редагувати | </a>
+                        <a href="/Admin/Admin/Delete/@item.Id">Видалити</a>
+                        
+                    </p>
+                }
+                else
+                {
+                    <p>
+                        Лише адміністратор
+                    </p>
+                }
+            </td>
+            <td></td>
+        </tr>
+    }
+
+</table>
+
+
+
+@section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

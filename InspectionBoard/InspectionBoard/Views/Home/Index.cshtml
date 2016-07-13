@@ -1,0 +1,51 @@
+﻿@model InspectionBoard.Domain.Entity.Applicant
+
+@{
+    ViewBag.Title = "DisplayPage";
+    Layout = "~/Views/Shared/Body.cshtml";
+} 
+    <h2>Особиста сторінка</h2>
+
+    <div>
+        <h4>
+            @Html.DisplayFor(model => model.LastName)
+            @Html.DisplayFor(model => model.FirstName)
+            @Html.DisplayFor(model => model.MiddleName)
+        </h4>
+        <hr />
+        <div class="dl-horizontal ">
+            <div class="left">
+                <h4>Атестат</h4>
+                <div>
+                    @Html.Raw("<img style='width:240px; height:180px;' src=\"data:image/jpeg;base64,"
+                                + Convert.ToBase64String(Model.Attestation) + "\" />")
+                </div>
+            </div>
+
+            <div class="left top1">
+                <p><b>Email:</b> @Html.DisplayFor(model => model.Email) </p> 
+
+                <p><b>Логін:</b> @Html.DisplayFor(model => model.UserName)</p>
+
+                <p><b>Місто:</b> @Html.DisplayFor(model => model.City)</p>
+
+                <p><b>Область:</b> @Html.DisplayFor(model => model.Region)</p>
+
+                <p><b>Школа:</b> @Html.DisplayFor(model => model.SchoolName)</p>
+            </div> 
+        </div>
+    </div>
+z
+    <p>
+        <a href="/Home/DisplayCity#section2" class="right">
+            <img src="~/Content/search.png" title="Територіальний пошук" />
+        </a> 
+    </p>
+@*@section Section1{
+    <img src="#" alt="1" id="img0" />
+}*@
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/SliderJS.js")
+    @Scripts.Render("~/bundles/jqueryval")
+}

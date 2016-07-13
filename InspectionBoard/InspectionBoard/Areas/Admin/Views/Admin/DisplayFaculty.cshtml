@@ -1,0 +1,71 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Faculty>
+
+@{
+    ViewBag.Title = "Список факультетів";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+@Styles.Render("~/Content/sortStyle.css")
+
+<h2>Список факультетів</h2>
+
+@if (!ViewBag.Roles.Contains("moderator"))
+{
+    <p>
+        <a href="/Admin/Admin/CreateFaculty#section2">Додати факультет</a> 
+    </p>
+}
+<table class="table" id="grid">
+    <thead>
+        <tr>
+
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <td>
+
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    <a href="/Admin/Admin/DisplaySpecialty/@item.Id#section2">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </a>
+                </td>
+
+                <td>
+                    @if (!ViewBag.Roles.Contains("moderator"))
+                    {
+                        <p>
+                            <a href="/Admin/Admin/EditFaculty/@item.Id#section2">Редагувати</a>
+                            <a href="/Admin/Admin/DeleteFaculty/@item.Id">Видалити</a>
+                            
+                        </p>
+                    }
+                    else
+                    {
+                        <p>Тільки для адміністратора</p>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@Scripts.Render("~/Scripts/scriptSort.js")
+
+@section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

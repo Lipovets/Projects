@@ -1,0 +1,12 @@
+2016-03-06 16:49:01.8911 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-06 16:49:41.3874 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User albina@gmail.com log in system.
+2016-03-06 16:52:45.6820 | INFO | InspectionBoard.Controllers.HomeController | Useralbina@gmail.com sent statement to system.
+2016-03-06 16:53:01.5086 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-03-06 16:53:10.3092 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-03-06 16:53:10.4299 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-06 16:53:50.8798 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-03-06 16:55:25.0156 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-06 16:56:19.5199 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-06 16:56:55.2598 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-03-06 16:57:05.4100 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-03-06 16:57:10.3450 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | List of applicants was defined. There are 11 applicants on budget, and 1 applicants on contract.

@@ -1,0 +1,81 @@
+﻿@model InspectionBoard.Domain.Entity.Applicant
+
+@{
+    ViewBag.Title = "DisplayPage";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+@section Section1{
+<h2>Особиста сторінка</h2>
+
+<div>
+    <h4> 
+
+    @Html.DisplayFor(model => model.FirstName)
+         
+
+    @Html.DisplayFor(model => model.LastName)
+         
+
+    @Html.DisplayFor(model => model.MiddleName)
+</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+
+       
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Region)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SchoolName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SchoolName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Attestation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Attestation)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")*@
+</p>
+    }

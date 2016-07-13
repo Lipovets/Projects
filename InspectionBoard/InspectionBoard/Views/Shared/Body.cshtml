@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <script src="~/Scripts/jquery-2.2.0.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link rel=" stylesheet" type="text/css" href="~/Content/Style.css" />
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50" background="~/Content/wall.jpg" style="background-attachment: fixed; background-position: right top;">
+
+    <div class="container-fluid" @*style="background-color:#F44336;color:#fff;height:447px;"*@ style="height: 447px;">
+            @*<img src="~/Content/wall.jpg" class="startImage" />*@
+        </div>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="440">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/Home/Index">Приймальна комісія</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        @*<li><a href="#section1">Головна</a></li>*@
+                        <li><a href="#section2">Пошук</a></li>
+                        <li><a href="#section3">Про нас</a></li>
+
+                    </ul>
+                    <a href="/Account/Account/Logout/" class="btn-lg btn" id="out">Вийти</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+     
+    <div id="section2" class="container-fluid cities">
+        @RenderSection("Section1", false)
+        @RenderBody()
+        
+    </div>
+    <div id="section3" class="container-fluid">
+
+        <div class="about">
+            <img src="~/Content/khpi.png" />
+            <br />
+            <br />
+            <p>Програмне забезпечення розроблене студентом НТУ "ХПІ" призначене для абітурієнтів, які намагаються вступити до ВНЗ.</p>
+            <p>Подача документів здійснюється в електронному форматі. Після надсилання заявки з вказаними балами ЗНО та атестату, абітурієнт потрапляє на конкурсну основу.</p>
+            <p>В результаті система визначає осіб, які претендують на зарахування до ВНЗ та розсилає сповіщеня на електронну пошту. </p>
+
+
+        </div>
+        <p class="down">
+            © МІНІСТЕРСТВО ОСВІТИ І НАУКИ УКРАЇНИ, ГО «ЦЕНТР ОСВІТНЬОЇ ПОЛІТИКИ», 2008-2016
+        </p>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,72 @@
+2016-02-24 00:02:59.6042 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 00:11:00.5870 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженеріяwas created.
+2016-02-24 00:18:41.5886 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-02-24 00:18:54.9475 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was deleted.
+2016-02-24 00:29:38.1056 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 00:31:36.7852 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженеріяwas created.
+2016-02-24 00:31:49.1197 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-02-24 00:32:13.7812 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженерія (ПІ)was edited.
+2016-02-24 00:34:10.0349 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженерія (ПІ)was edited.
+2016-02-24 00:36:19.2197 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженерія (ПІ)was edited.
+2016-02-24 00:38:46.2265 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 00:39:03.4827 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@mail.ru ввійшов в систему.
+2016-02-24 00:47:48.7098 | INFO | InspectionBoard.Controllers.HomeController | Userlipavets@mail.ru sent statement to system.
+2016-02-24 00:47:54.3682 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 00:48:12.1603 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 00:48:12.2924 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 08:30:49.2420 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 08:42:11.9629 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-24 08:55:47.8400 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 08:56:30.6642 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 08:56:45.6601 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@mail.ru ввійшов в систему.
+2016-02-24 08:57:34.5858 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 08:57:43.5600 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Не правильний логін чи пароль
+2016-02-24 08:57:43.8410 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Не вдалося ввійти в систему
+2016-02-24 08:58:02.6791 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@yahoo.com.ua ввійшов в систему.
+2016-02-24 09:03:27.8933 | INFO | InspectionBoard.Controllers.HomeController | Userlipavets@yahoo.com.ua sent statement to system.
+2016-02-24 09:03:34.7626 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 09:04:01.8419 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач moderator@gmail.com ввійшов в систему.
+2016-02-24 09:04:01.9930 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 09:04:41.3758 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-24 09:23:16.0506 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 09:23:30.8309 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@mail.ru ввійшов в систему.
+2016-02-24 09:23:31.0755 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@mail.ru was blocked by admin.
+2016-02-24 09:26:03.7819 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@mail.ru was blocked by admin.
+2016-02-24 09:26:04.3899 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@mail.ru was blocked by admin.
+2016-02-24 09:26:17.6033 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 09:27:02.0826 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 09:27:33.8252 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 09:28:19.7994 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 09:35:55.3533 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Програмна інженерія (ПІ)was edited.
+2016-02-24 09:38:41.1231 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 09:42:26.3129 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 09:42:38.1445 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@yahoo.com.ua ввійшов в систему.
+2016-02-24 18:04:12.8361 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 18:08:16.3022 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty Комп'ютерні наукиwas created.
+2016-02-24 18:11:21.2880 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 18:43:04.6352 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 18:44:32.2301 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 18:46:08.0018 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Register>d__1 | Реєстрація користувача здійснена успішноalexandrlipavets@gmail.ru
+2016-02-24 18:46:18.3289 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач alexandrlipavets@gmail.ru ввійшов в систему.
+2016-02-24 19:05:11.6169 | INFO | InspectionBoard.Controllers.HomeController | Useralexandrlipavets@gmail.ru sent statement to system.
+2016-02-24 19:05:25.3031 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:05:43.3710 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 19:05:43.4961 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 19:06:45.1641 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-24 19:06:59.6453 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 19:07:58.5004 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:08:09.1031 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@yahoo.com.ua ввійшов в систему.
+2016-02-24 19:09:59.9900 | INFO | InspectionBoard.Controllers.HomeController | Userlipavets@yahoo.com.ua sent statement to system.
+2016-02-24 19:10:06.3592 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:10:18.2473 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 19:10:18.3624 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 19:10:39.0119 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-24 19:10:47.6034 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:11:00.6754 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач alexandrlipavets@gmail.ru ввійшов в систему.
+2016-02-24 19:12:00.6317 | INFO | InspectionBoard.Controllers.HomeController | Useralexandrlipavets@gmail.ru sent statement to system.
+2016-02-24 19:12:05.4067 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:12:17.7772 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-24 19:12:17.9028 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-24 19:12:37.2637 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-24 19:12:41.2398 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-24 19:13:00.0153 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач lipavets@yahoo.com.ua ввійшов в систему.

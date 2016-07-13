@@ -1,0 +1,78 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Statement>
+@using InspectionBoard.Domain.BuisnessLogic;
+
+@{
+    ViewBag.Title = "Заявки";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Заявки</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            №
+        </th>
+        <th>
+            ПІБ
+        </th>
+        <th>
+            Сума балів
+        </th>
+        <th>
+            Атестат
+        </th>
+        <th>
+            
+        </th>
+
+    </tr>
+    @{
+        int i = 0;
+    }
+    @foreach (var item in Model)
+    {
+        if (!item.isConfirmed)
+        {
+            <tr>
+                <td>
+                    <p>@(++i)</p>
+                </td>
+                <td>
+                    @{
+            StatementRepository p = new StatementRepository();
+            <p>@p.ApplicantToStatement(item.Id).LastName @p.ApplicantToStatement(item.Id).FirstName @p.ApplicantToStatement(item.Id).MiddleName</p>
+                    }
+                </td>
+                <td>
+                    @(item.Subject1 + item.Subject2 + item.Subject3 + item.СreditСertificate)
+                </td>
+                <td>
+                    @Html.Raw("<img style='width:80px; height:60px;' src=\"data:image/jpeg;base64,"
+                             + Convert.ToBase64String(p.ApplicantToStatement(item.Id).Attestation) + "\" />")
+                </td>
+                <td>
+                    @using (Html.BeginForm())
+                    {
+                        <input type="hidden" name="StateId" value="@item.Id" />
+                        <input type="submit" class="btn btn-primary small" value="Підтвердити" />
+                    }
+                    <a href="/Admin/Admin/DeleteStatement/@item.Id" class="btn btn-primary small">Видалити</a>
+                    
+                </td> 
+            </tr>
+        }
+    }
+
+</table>
+@section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

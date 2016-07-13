@@ -1,0 +1,44 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Subject>
+
+
+@{
+    ViewBag.Title = "Список предметів";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Список предметів</h2>
+
+<p>
+    @Html.ActionLink("Додати предмет", "CreateSubject")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th> 
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td> 
+        <td>
+            @Html.ActionLink("Редагувати", "EditSubject", new { id=item.Id }) | 
+            @Html.ActionLink("Видалити", "DeleteSubject", new { id=item.Id })
+        </td>
+    </tr>
+}
+</table>
+ @section Section1{
+    <div class="adminImage">
+
+        <a href="/Admin/Admin/DisplaySubjects#section2">
+            <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+        </a>
+        <a href="/Admin/Admin/DisplayUsers#section2">
+            <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+        </a>
+    </div>
+}

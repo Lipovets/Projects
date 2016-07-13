@@ -1,0 +1,36 @@
+﻿@model InspectionBoard.Domain.Entity.LoginModel 
+
+@{
+    ViewBag.Title = "Login";
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel=" stylesheet" type="text/css" href="~/Content/Style.css" />
+}
+
+
+
+<body background="~/Content/reg.jpg" >
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div style="background:url(~/Content/reg.jpg)">
+            <h2 class="centr top">Ввійти в систему</h2>
+            <input type="hidden" name="returnUrl" value="@ViewBag.returnUrl" />
+            <label class="lab">Логін</label><br />
+            <input name="Email" class="form-control field centr" />
+
+
+            <label class="lab">Пароль</label><br />
+            <input name="Password" type="password" class="form-control field centr" />
+            @Html.ValidationSummary(false, "", new { @class = "validka" })
+            <br />
+
+            <button type="submit" class="btn btn-primary centr">Ввійти</button>
+            <a href="/Account/Account/Register" class="btn btn-default small centr reg alinkbutton">Реєстрація</a>
+        </div>
+    }
+</body>

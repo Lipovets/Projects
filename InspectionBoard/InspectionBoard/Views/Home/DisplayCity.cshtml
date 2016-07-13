@@ -1,0 +1,36 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.City>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Список міст України</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Місто
+        </th>
+        <th> 
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                <a href="/Home/DisplayUniversity/@item.Id#section2">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </a>
+            </td>
+            <td> 
+            </td>
+        </tr>
+    }
+     
+</table>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

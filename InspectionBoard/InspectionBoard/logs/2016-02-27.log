@@ -1,0 +1,17 @@
+2016-02-27 19:25:02.4874 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-27 19:57:47.4289 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@mail.ru log in system.
+2016-02-27 20:20:33.4849 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-27 20:43:43.7324 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@mail.ru log in system.
+2016-02-27 22:36:02.9434 | INFO | InspectionBoard.Controllers.HomeController | Userlipavets@mail.ru sent statement to system.
+2016-02-27 22:36:08.7936 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-27 22:36:31.6660 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-02-27 22:36:31.8721 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-02-27 22:36:44.4134 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@mail.ru log in system.
+2016-02-27 22:37:47.2751 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-02-27 22:38:03.2935 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User admin@gmail.com log in system.
+2016-02-27 22:38:03.4062 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-27 22:38:42.4525 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited.
+2016-02-27 22:39:10.8458 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Calculate amount of statements.
+2016-02-27 22:39:21.7050 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-27 22:39:51.5633 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Ô³çèêàwas created.
+2016-02-27 22:43:01.5348 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout

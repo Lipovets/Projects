@@ -1,0 +1,10 @@
+2016-06-08 18:31:54.3473 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-06-08 18:31:54.3833 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-06-08 18:32:19.6520 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-06-08 18:32:19.6520 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-06-08 18:32:32.6196 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Wrong email or password
+2016-06-08 18:32:32.6646 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Login failed
+2016-06-08 18:32:41.9505 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User lipavets@yahoo.com.ua log in system.
+2016-06-08 18:32:42.1657 | INFO | InspectionBoard.Controllers.HomeController | User lipavets@yahoo.com.ua was blocked by admin.
+2016-06-08 18:32:49.6140 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | User logout
+2016-06-08 18:33:03.7415 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | User kari_mos@gmail.com log in system.

@@ -1,0 +1,10 @@
+2016-03-02 00:20:27.8465 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on 
+2016-03-02 00:20:29.0869 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-03-02 00:20:29.1770 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was edited by admin.
+2016-03-02 00:20:29.1880 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-02 00:20:29.2381 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty was edited.
+2016-03-02 00:20:29.2486 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-02 00:20:29.3031 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was edited.
+2016-03-02 00:20:29.3161 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was deleted.
+2016-03-02 00:20:29.3712 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited on 
+2016-03-02 00:20:29.3712 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was deleted.

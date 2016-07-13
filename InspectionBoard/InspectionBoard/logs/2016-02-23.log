@@ -1,0 +1,56 @@
+2016-02-23 12:09:01.3733 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController | Користувач вийшов з системи.
+2016-02-23 12:09:32.2680 | INFO | InspectionBoard.Areas.Account.Controllers.AccountController+<Login>d__d | Користувач admin@gmail.com ввійшов в систему.
+2016-02-23 12:09:32.4897 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 12:09:50.2556 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 12:17:03.7916 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Київ
+2016-02-23 12:18:52.2791 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Математикаwas created.
+2016-02-23 12:19:11.1017 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Українська моваwas created.
+2016-02-23 12:19:25.3760 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Історіяwas created.
+2016-02-23 12:19:31.8804 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was deleted.
+2016-02-23 12:19:43.6788 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject Математикаwas created.
+2016-02-23 12:25:31.4033 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 12:31:38.2440 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited on Українська мова
+2016-02-23 12:40:12.9347 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 12:45:27.9787 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 13:03:00.4241 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 13:15:23.5525 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 14:05:37.5869 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 14:16:13.2557 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 14:18:50.7225 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 14:37:04.0530 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city Житомир
+2016-02-23 14:50:28.6568 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 14:52:01.3956 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on Харкі
+2016-02-23 14:53:59.4164 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city w
+2016-02-23 15:02:18.0094 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on Вінниця
+2016-02-23 15:02:32.1105 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-02-23 15:02:55.4009 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | List of applicants was defined. There are 0 applicants on budget, and 0 applicants on contract.
+2016-02-23 15:02:55.4009 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Messages about accepted to university was sent (0).
+2016-02-23 15:35:21.5052 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 15:37:33.7232 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University ХПІ was added by admin
+2016-02-23 15:38:27.7614 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University ХПІ was added by admin
+2016-02-23 15:38:39.4317 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-02-23 15:40:56.7195 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Харків was added by admin
+2016-02-23 15:51:46.0611 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Комп'ютерні науки і програмна інженеріяwas added.
+2016-02-23 15:58:38.5672 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Психологіяwas added.
+2016-02-23 16:01:49.7813 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-02-23 16:02:03.8644 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-02-23 16:13:49.4494 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 16:14:29.8025 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-02-23 16:19:34.8671 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 16:26:10.9307 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 16:26:49.0869 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin added city wrdwed
+2016-02-23 16:26:51.9841 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-02-23 16:27:03.2575 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on Харків
+2016-02-23 16:27:42.9892 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Математика was added by admin
+2016-02-23 16:31:13.5627 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was edited by admin.
+2016-02-23 16:31:48.3463 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-02-23 16:32:49.0407 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Математика was added by admin
+2016-02-23 16:34:02.5303 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-02-23 16:36:49.1373 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas added.
+2016-02-23 16:39:55.4020 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas edited.
+2016-02-23 17:29:49.4106 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas edited.
+2016-02-23 17:30:34.3621 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University Математика was added by admin
+2016-02-23 17:30:57.0536 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas added.
+2016-02-23 17:31:06.6630 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas edited.
+2016-02-23 23:11:58.4290 | INFO | InspectionBoard.Controllers.HomeController | Admin or moderator log in system.
+2016-02-23 23:15:36.5715 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty Житомирwas edited.

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<InspectionBoard.Domain.Entity.Subject>
+
+@{
+    ViewBag.Title = "Вибір предмета";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Вибір предмета</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal"> 
+        <hr />
+        
+        <p>Виберіть 3 предмети</p>
+        <br />
+        @foreach (var item in Model)
+        {
+            <input type="checkbox" name="SelectedSubject" value="@item.Id" @(ViewBag.SubjectForSpecialty.Contains(item.Name) ? "checked='checked'" : "") />@item.Name
+            <br />
+        }
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Зберегти" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    <a href="/Admin/Admin/Index#section2">Повернутися</a> 
+</div>
+ 
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+@section Section1{
+<div class="adminImage">
+
+    <a href="/Admin/Admin/DisplaySubjects#section2">
+        <img src="~/Content/subjects.png" title="Список предметів" class="adminImageSize" />
+    </a>
+    <a href="/Admin/Admin/DisplayUsers#section2">
+        <img src="~/Content/users.png" title="Список користувачів" class="adminImageSize" />
+    </a>
+</div>
+}

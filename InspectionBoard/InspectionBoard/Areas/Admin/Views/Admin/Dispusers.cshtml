@@ -1,0 +1,30 @@
+﻿@using InspectionBoard.Domain.BuisnessLogic;
+
+@{
+    ViewBag.Title = "Dispusers";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Dispusers</h2>
+
+@{
+    List<int> ConfirmedApplicantList = ViewBag.ConfirmedApplicantList;
+    List<int> UnconfirmedApplicantList = ViewBag.UnconfirmedApplicantList;
+    StatementRepository app = new StatementRepository();
+}
+
+<p>Зачислені</p>
+@foreach(var item in ConfirmedApplicantList)
+{
+    <p>
+        @app.ApplicantToStatement(item);
+    </p>   
+}
+
+<p>Незачислені</p>
+@foreach(var item in UnconfirmedApplicantList)
+{
+    <p>
+        @app.ApplicantToStatement(item);
+    </p>
+}

@@ -1,0 +1,62 @@
+﻿@model InspectionBoard.Domain.Entity.Statement
+
+@{
+    ViewBag.Title = "Заповнення заявки";
+    Layout = "~/Views/Shared/Body.cshtml";
+}
+
+<h2>Заповнення заявки</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal "> 
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            Предмет №1
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Subject1, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Subject1, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Предмет №2
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Subject2, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Subject2, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Предмет №3
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Subject3, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Subject3, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            Бал атестата
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.СreditСertificate, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.СreditСertificate, "", new { @class = "text-danger" })
+            </div>
+        </div> 
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Надіслати" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("На головну", "Index")
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

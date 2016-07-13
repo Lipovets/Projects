@@ -1,0 +1,20 @@
+2016-03-01 17:41:04.3737 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on 
+2016-03-01 17:41:06.0004 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-03-01 17:41:06.0805 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was edited by admin.
+2016-03-01 17:41:06.0915 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-01 17:41:06.1385 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty was edited.
+2016-03-01 17:41:06.1485 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-01 17:41:06.1966 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was edited.
+2016-03-01 17:41:06.1966 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was deleted.
+2016-03-01 17:41:06.2516 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited on 
+2016-03-01 17:41:06.2616 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was deleted.
+2016-03-01 23:53:07.9103 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin changed the city name on 
+2016-03-01 23:53:10.1072 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Admin deleted the city.
+2016-03-01 23:53:10.1902 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was edited by admin.
+2016-03-01 23:53:10.2042 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-01 23:53:10.2963 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Faculty was edited.
+2016-03-01 23:53:10.3108 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | University was deleted by admin
+2016-03-01 23:53:10.3979 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was edited.
+2016-03-01 23:53:10.4329 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Specialty was deleted.
+2016-03-01 23:53:10.4954 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was edited on 
+2016-03-01 23:53:10.5095 | INFO | InspectionBoard.Areas.Admin.Controllers.AdminController | Subject was deleted.
