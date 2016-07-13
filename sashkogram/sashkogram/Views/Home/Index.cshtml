@@ -1,0 +1,125 @@
+﻿@model sashkogram.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = "Sashkogram";
+    Layout = "~/Views/Shared/sashkogram_layout.cshtml";
+}
+
+@Html.HiddenFor(model => model.Id)
+<div>
+    <div class="avatarStyle">
+
+        @if (Model.Avatars.Count > 0)
+        {
+            @Html.Raw("<img id='there' style='width:140px; height:140px; position:relative' src=\"data:image/jpeg;base64,"
+                                    + Convert.ToBase64String(Model.Avatars.ToList()[Model.Avatars.Count() - 1].Image) + "\" />")
+        }
+        else
+        {
+            <p id="there">
+                Image
+            </p>
+        }
+
+        <div id="avatar" class="changeAvatar" style="display:none;">
+            <p class="lineHeightChange"><a class="whiteColor" href="/Home/ChangeAvatar/@Model.Id">Change avatar</a></p>
+            <p class="lineHeightDelete"><a class="whiteColor" href="">Delete avatar</a></p>
+
+        </div>
+
+    </div>
+    <div class="nameStyle">
+        <div class="divNameStyle">
+            <h2 class="h2StyleName">@Model.Name</h2>
+            <a href="#" class="editProfileStyle">Edit profile</a>
+        </div>
+        <div>
+            <h4 id="ProfileStatus">@Model.ProfileStatus</h4>
+            <div id="SetStatus" style="display:none">
+                @using (Ajax.BeginForm("ChangeStatus", new AjaxOptions { UpdateTargetId = "ProfileStatus" }))
+                {
+                    <input name="Id" type="hidden" value="@Model.Id" />
+                    <input name="ProfileStatus" type="text" value="@Model.ProfileStatus" />
+                    <input id="hideEditor" type="submit" value="Save" />
+                }
+            </div>
+            <a href="/Home/AddPhoto/@Model.Id" class="addPhotoStyle">
+                <img class="addPhotoLogo" src="~/Content/images/addPhotoLogo.png" />
+            </a>
+        </div>
+        <div>
+            <div class="statisticUser">
+                <p>@Model.ProfilePhotos.Count photo</p>
+            </div>
+
+            <div class="statisticUser statisticUserPadding">
+                <p>@*@Model.Followers.Count*@0 followers</p>
+            </div>
+            <div class="statisticUser statisticUserPadding">
+                <p>@*@Model.Following.Count*@0 following</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="placeForPhotos">
+    @for (int item = 0, photo = 0; item < Math.Ceiling((double)Model.ProfilePhotos.Count() / 3); item++)
+    {
+        <div style="clear:both">
+            @for (int cell = 0; cell < 3; cell++)
+            {
+                <div class="stylePhoto statisticUser">
+                    @if (photo < Model.ProfilePhotos.Count)
+                    {
+                        @Html.Raw("<img  class='profilePhotos' style='width:250px; height:300px; position:relative;' src=\"data:image/jpeg;base64,"
+                                     + Convert.ToBase64String(Model.ProfilePhotos.ToList()[(Model.ProfilePhotos.Count() - 1) - (photo)].Image) + "\" />")
+                        <div class="divOnPhoto" style="display:none">
+
+                            <img src="~/Content/images/like.png" class="photoLikeComment" /><label class="labelLikeComment">@Model.ProfilePhotos.ToList()[(Model.ProfilePhotos.Count() - 1) - (photo)].LikeNumber</label>
+                            <img src="~/Content/images/comment.png" class="photoLikeComment" /><label class="labelLikeComment">@(Model.ProfilePhotos.ToList()[(Model.ProfilePhotos.Count() - 1) - (photo++)].Comment != null ? Model.ProfilePhotos.ToList()[(Model.ProfilePhotos.Count() - 1) - (photo++)].Comment.Count() : 0)</label>
+                        </div>
+                        <input class="number" type="hidden" value="@(photo-1)" />
+                    }
+                </div>
+
+            }
+        </div>
+    }
+</div>
+<div id="sliderDiv" class="slider" style="display:none">
+    
+    <div class="sliderPhotoComment"> 
+        <a>
+            <img id="prev" class="sliderLeftRight" src="~/Content/images/left.png" />
+        </a>
+        <div class="sliderPhoto">
+            <img id="bigPhoto"  src="" />
+        </div>
+        <a>
+            <img id="next" class="sliderLeftRight sliderRight" src="~/Content/images/right.png" />
+        </a>
+        <img id="photoClose" src="~/Content/images/close.png" />
+        <div class="sliderComments">
+            <div class="sliderAvatar">
+                 @Html.Raw("<img id='there' style='width:50px; height:50px; position:relative' src=\"data:image/jpeg;base64,"
+                                    + Convert.ToBase64String(Model.Avatars.ToList()[Model.Avatars.Count() - 1].Image) + "\" />")
+                <label class="sliderName">
+                    @Model.Name
+                </label>
+            </div>
+            <hr class="sliderHR" />
+            <div>
+                <div>@Model.ProfilePhotos</div>
+            </div>
+            <div>
+                @*@foreach(string item in Model.ProfilePhotos[0].)*@
+                Comments
+            </div>
+        </div>
+    </div>
+
+</div>
+
+@Scripts.Render("~/Content/Script.js")
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
